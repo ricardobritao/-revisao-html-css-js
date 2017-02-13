@@ -1,0 +1,187 @@
+body {
+  color      : #333333;               
+  font-family: "Lucida Sans Unicode", 
+               "Lucida Grande", 
+               sans-serif;
+}
+
+header {
+  position: relative; 
+}
+
+.container {
+  margin: 0 auto;
+  width : 940px;
+}
+
+.sacola {
+  background   : url(../img/sacola.png) no-repeat top right; 
+  font-size    : 14px;                                       
+  padding-right: 35px;                                       
+  padding-top  : 8px;                                        
+  text-align   : right;                                      
+  width        : 140px;                                      
+  position     : absolute;                                   
+  top          : 0;                                          
+  right        : 0;                                          
+}
+
+.menuOpcoes {
+  position: absolute; 
+  bottom  : 0;
+  right   : 0;
+}
+
+.menuOpcoes ul {
+  font-size : 15px;
+}
+
+.menuOpcoes a {
+  color : #003366;
+}
+
+.menuOpcoes ul li {
+  display    : inline;
+  margin-left: 20px;
+}
+
+.busca,
+.menuDepartamentos {
+
+  background-color : #dcdcdc;  
+  font-weight      : bold;  
+  text-transform   : uppercase;
+  margin-right     : 10px;  
+  width            : 230px;  
+}
+
+.busca h2,
+.busca form,
+.menuDepartamentos h2 {
+  margin: 10px;
+}
+
+.menuDepartamentos li {
+
+  background-color : white;
+  margin-bottom    : 1px;    
+  padding          : 5px 10px;
+  
+  /*
+  A linha acima substitui as 4
+  linhas abaixo  
+  padding-top    : 5px;
+  padding-right  : 10px;
+  padding-bottom : 5px;
+  padding-left   : 10px;
+  */
+  
+}
+
+.menuDepartamentos a {
+  color           : #333333;
+  text-decoration : none;
+}
+
+.busca input {
+  vertical-align : middle;
+}
+
+.busca input[type=search] {
+  width : 170px;
+}
+
+.menuDepartamentos,
+.busca {
+
+  float : left;
+}
+
+.menuDepartamentos {
+
+  clear : left;
+}
+
+.destaque {
+  margin-top: 10px;
+}
+
+.menuDepartamentos {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.painel {
+
+  width   : 445px;
+  margin  : 10px 0;
+  padding : 10px;
+}
+
+.novidades {
+  float            : left;
+  background-color : #f5dcdc;
+}
+
+.maisVendidos {
+  float            : right;
+  background-color : #dcdcf5;
+}
+
+.painel li {
+  display        : inline-block;
+  vertical-align : top;
+  width          : 140px;
+  margin         : 2px;
+  padding-bottom : 10px;
+}
+
+.painel h2 {
+  font-size      : 24px;
+  font-weight    : bold;
+  text-transform : uppercase;
+  margin-bottom  : 10px;
+}
+
+.painel a {
+  color           : #333;
+  font-size       : 14px;
+  text-align      : center;
+  text-decoration : none;
+}
+
+footer {
+  background-image : url(../img/fundo-rodape.png);
+}
+
+.social li {
+  display : inline;
+}
+
+footer {
+  clear: both;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer .container {
+  position: relative;
+}
+
+.social {
+  position : absolute;
+  top      : 12px;
+  right    : 0;
+}
+
+.social li {
+  float       : left;
+  margin-left : 25px;
+}
+
+
+
+
+
